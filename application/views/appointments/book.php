@@ -174,7 +174,7 @@
                 <div id="wizard-frame-2" class="wizard-frame" style="display:none;">
                     <div class="frame-container">
 
-                        <h3 class="frame-title"><?= lang('step_two_title') ?></h3>
+                        <h2 class="frame-title"><?= lang('step_two_title') ?></h2>
 
                         <div class="frame-content row">
                             <div class="col-xs-12 col-sm-6">
@@ -315,13 +315,13 @@
                     </div>
 
                     <div class="command-buttons">
-                        <button type="button" id="button-back-4" class="btn button-back btn-default"
+                        <button type="button" id="button-back-4" class="btn button-back btn-success"
                                 data-step_index="4">
                             <span class="glyphicon glyphicon-backward"></span>
                             <?= lang('back') ?>
                         </button>
                         <form id="book-appointment-form" style="display:inline-block" method="post">
-                            <button id="book-appointment-submit" type="button" class="btn btn-success">
+                            <button id="book-appointment-submit" type="button" class="btn btn-danger">
                                 <span class="glyphicon glyphicon-ok"></span>
                                 <?= !$manage_mode ? lang('confirm') : lang('update') ?>
                             </button>
